@@ -1,0 +1,32 @@
+<style type>
+html, body, div,span, 
+h1, h2, h3,p,
+a, address,
+label,table, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ol, ul, li{
+	 list-style:none;
+	 }
+a{
+	text-decoration:none;
+	display:block;
+	color:white;}
+img{
+	border:none;
+	display:block;}
+.clearfloat{
+	zoom:1;
+	}
+.clearfloat:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0;}
+</style>
